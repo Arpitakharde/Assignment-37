@@ -68,3 +68,19 @@ body{
     margin:30px 30px;
 }
 
+#people-list{
+    display: block;
+}
+
+.Mute-people{
+    height:fit-content;
+    width:130px;
+    background-color: rgb(164, 164, 252);
+    display:inline-block;
+    border-radius: 20px;
+    border: none;
+    margin:5px 20px;
+    padding:5px 10px;
+    align-content: center;
+
+}    
