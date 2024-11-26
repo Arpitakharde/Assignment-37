@@ -28,7 +28,7 @@
                             Add people
                         </button>
 
-                        <input type="text" id="search-input" placeholder="Search for people..." >
+                        <input type="text" id="search-input" placeholder="Search for people..." onkeyup="loadPeopleResult()">
                         <hr>
 
                         <div id="people-list">
@@ -102,14 +102,13 @@
     const peoplesContainer = document.getElementById("people-list");
     peoples.forEach((stud) => {
         peoplesContainer.innerHTML += `<div id="people-name"> 
-                <img src="./../image/winter.jpg" id="people-img" >
+                <img src="./../image/imail-img.png" id="people-img" >
                 ${stud}
                 <img src="./../image/mike.png" id="mikeMutePeople">
                 <hr/>
             </div>`;
     });
-
-    function loadPeopleResult(){
+   function loadPeopleResult(){
         const inputElement = document.getElementById("search-input");
         const searchText = inputElement.value.toLowerCase();
 
