@@ -104,7 +104,7 @@ body{
     margin:5px 20px;
     padding:5px 10px;
     align-content: center;
-
+    cursor: pointer;
 }   
 
 .Add-people{
@@ -117,7 +117,7 @@ body{
     margin:5px 20px;
     padding:5px 10px;
     align-content: center;
-
+    cursor: pointer;
 }  
 
 .video-container {
