@@ -61,3 +61,10 @@ body{
     margin:0px 5px;
     border-radius: 40px;
 }  
+
+#search-input{
+    height:30px;
+    width:300px;
+    margin:30px 30px;
+}
+
