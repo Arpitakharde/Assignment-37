@@ -97,7 +97,33 @@
         "Fatima shaikh",
         "Gayatree dale"   
     ];
-    
+
+
+    const peoplesContainer = document.getElementById("people-list");
+    peoples.forEach((stud) => {
+        peoplesContainer.innerHTML += `<div id="people-name"> 
+                <img src="./../image/winter.jpg" id="people-img" >
+                ${stud}
+                <img src="./../image/mike.png" id="mikeMutePeople">
+                <hr/>
+            </div>`;
+    });
+
+    function loadPeopleResult(){
+        const inputElement = document.getElementById("search-input");
+        const searchText = inputElement.value.toLowerCase();
+
+        peoplesContainer.innerHTML='';
+
+        const filterdPeoples = peoples.filter((stud)=>{
+            if (stud.toLowerCase().includes(searchText)){
+                return true;
+            }
+        })
+       filterdPeoples.forEach((stud)=>{
+            peoplesContainer.innerHTML += `<b id="people-list">${stud}</b>`
+       })
+   }
     </script>
 </body>
 </html>

@@ -68,6 +68,20 @@ body{
     margin:30px 30px;
 }
 
+#people-img{
+    height:30px;
+    width:30px;
+    margin:0px 5px;
+    border-radius: 40px;
+}
+
+#people-name{
+    align-content: center;
+    align-items: center;
+    margin-right:0px ;
+}
+
+
 #people-list{
     display: block;
 }
