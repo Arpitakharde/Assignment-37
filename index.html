@@ -120,7 +120,12 @@
             }
         })
        filterdPeoples.forEach((stud)=>{
-            peoplesContainer.innerHTML += `<b id="people-list">${stud}</b>`
+            peoplesContainer.innerHTML += `
+            <b id="people-list">
+                <img src="./../image/imail-img.png" id="people-img" >
+                ${stud}</b> 
+            <img src="./../image/mike.png" id="mikeMutePeople">
+            <hr>`
        })
    }
     </script>
