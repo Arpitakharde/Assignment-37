@@ -6,9 +6,39 @@
     <title>google meet UI</title>
 </head>
 <body>
-    <div id="videoTag">
-        <img src="./../image/" class="meeting-record">&nbsp;&nbsp;video si presenting
-    </div>    
+    <div class="main-container">
+        <div id="videoTag">
+            <img src="./../image/recording-icon.png" class="meeting-record">&nbsp;&nbsp;video si presenting
+        </div>  
+    
+        <div  id="sub-container">
+            <div class="hero">
+                <img src="https://cdnb.artstation.com/p/assets/images/images/045/090/871/large/swapnil-mohite-bakery08.jpg?1641902310" alt="Bread">
+                    <div id="search-container">
+                        <b>People</b>
+
+                        <button class="Mute-people">
+                            <img src="./../image/mike.png" id="mikeMute">
+                            All muted
+                        </button>
+ 
+                        <button class="Add-people">
+                            <img src="./../image/mike.png" id="addPeople">
+                            Add people
+                        </button>
+
+                        <input type="text" id="search-input" placeholder="Search for people..." >
+                        <hr>
+
+                        <div id="people-list">
+                        
+                        </div>
+                    </div>
+            </div> 
+        </div>           
+
+
+    </div>
 
 </body>
 </html>
